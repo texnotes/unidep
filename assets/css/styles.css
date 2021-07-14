@@ -1,0 +1,107 @@
+.post, .page {
+    margin: 0;
+}
+
+.feedzy-rss ul {
+    margin: 0 !important; 
+}
+
+.callout.primary .button {
+width: 150px;
+}
+
+
+.callout.large.primary h1{
+color: white;
+text-transform: uppercase;
+}
+
+.top-bar, .top-bar ul{
+//background-color: #100a4d;
+
+}
+
+.menu .menu-text {
+	font-family: 'Play', sans-serif;
+	color: #767676;
+}
+
+.contact-details  {
+
+}
+footer-contact-details .footer-left {
+    
+}
+
+
+.no_hero-section{
+
+
+ background: url(../img/mev/logo_VMZ.jpg) 50% no-repeat;
+height: 60vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 45em) {
+  .no_hero-section {
+    height: 30vh;
+  }
+}
+
+
+
+.1hero-section {
+  background: url("../img/mev/logo_VMZ.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.1hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.hero_bb {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*
+    *  Where the magic happens
+    *  Centering method from CSS Tricks
+    *  http://css-tricks.com/centering-percentage-widthheight-elements/
+    */
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.background {
+  position:  absolute;
+  display:  block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+} 
+.hero-background{
+position:  relative;
+   z-index: 100;
+}
